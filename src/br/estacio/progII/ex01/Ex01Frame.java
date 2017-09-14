@@ -13,7 +13,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-public class Ex01Frame2 extends JFrame {
+public class Ex01Frame extends JFrame {
 
 	JPanel jpSuperior;
 	JPanel jpCentro;
@@ -31,7 +31,7 @@ public class Ex01Frame2 extends JFrame {
 	// Layout frame principal
 	BorderLayout jfBorderLayout = new BorderLayout(5, 5);
 
-	public Ex01Frame2() {
+	public Ex01Frame() {
 		configuracaoJframe();
 		instanciaComponentesFrame();
 		addComponentesJframe();
